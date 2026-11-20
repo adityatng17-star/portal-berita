@@ -1,0 +1,10 @@
+# Foto yang diunggah lewat panel admin tidak ikut di-commit
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# File editor dan sistem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

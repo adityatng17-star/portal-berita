@@ -1,0 +1,5 @@
+# Folder ini hanya untuk gambar. Matikan eksekusi script supaya file unggahan tidak bisa dijalankan.
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps|phar)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
